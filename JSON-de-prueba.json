@@ -1,0 +1,6 @@
+{
+	"alumnos":[
+		{"apellido": "ramirez", "nombre":"joaquin","promedio anual":"6"},
+		{"apellido": "perez", "nombre":"sebastian","promedio anual":"8"}
+	]
+}
