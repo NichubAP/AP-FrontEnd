@@ -46,12 +46,14 @@
 			<p class="profile-info-item"><i class="fas fa-map-marker-alt"></i> Buenos Aires, Argentina.</p>
 			<p class="profile-info-item"><i class="fas fa-birthday-cake"></i> 19 años</p>
 			<p class="profile-info-item"><i class="fas fa-calendar-alt"></i> 21/06/2003</p>
+			<p class="profile-info-item"><i class="fas fa-school"></i> Escuela técnica N°1</p>
 		</div>
 
 		<p class="profile-bio">
 			Estudiante de Argentina Programa. Aspirante a informático, diseñador y desarrollador web. Este es el proyecto para el módulo II.
 		</p>
 
+		<h3>Conocimientos</h3>
 		<div class="profile-knowledge">
 			<img id="svg-python" src="SVGs/python.svg">
 			<img id="svg-html" src="SVGs/html.svg">
@@ -61,17 +63,25 @@
 			<img id="svg-mysql" src="SVGs/mysql.svg">
 		</div>
 
-		<form>
-			<label>Nombre</label>
-			<input type="text" name="nombre" placeholder="Pepito">
+		<h3>Contáctame</h3>
+		<form class="profile-contact">
+			<div class="form-group">
+				<label for="nombre">Nombre</label>
+				<input class="form-control" type="text" name="nombre" placeholder="Pepito">
+				<small id="emailHelp" class="form-text text-muted">Debe incluir el apellido</small>
+			</div>
 
-			<label>Asunto</label>
-			<input type="text" name="asunto" placeholder="El asunto de tu mensaje va aquí">
+			<div class="form-group">
+				<label for="asunto">Asunto</label>
+				<input class="form-control" type="text" name="asunto" placeholder="El asunto de tu mensaje va aquí">
+			</div>
 
-			<label>Escribe tu mensaje</label>
-			<textarea placeholder="Este es un mensaje..."></textarea>
+			<div class="form-group">
+				<label for="area-mensaje">Escribe tu mensaje</label>
+				<textarea class="form-control" name="area-mensaje" placeholder="Este es un mensaje..."></textarea>
+			</div>
 
-			<button class="btn btn-secondary" type="submit">Enviar mensaje</button>
+			<button class="btn btn-secondary form-button-send" type="submit">Enviar mensaje</button>
 		</form>
 		
 	</div>
