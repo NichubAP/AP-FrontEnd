@@ -36,20 +36,29 @@
 	</nav>
 
 	<div class="profile">
-		<div class="profile-header"><img class="header-img" src="bg.png"></div>
-		<div class="profile-picture"><img class="profile-picture-img" width="100px" src="img.jpg"></div>
+		<button class="toggle-edit-mode-button"><i class="fas fa-pen"></i></button>
+
+		<div class="profile-header">
+			<div class="edit-button edit-header-button"><i class="fas fa-pen"></i></div>
+			<img class="header-img" src="img/header.jpg">
+		</div>
+		<div class="profile-picture">
+			<div class="edit-button edit-pfp-button"><i class="fas fa-pen"></i></div>
+			<img class="profile-picture-img" width="100px" src="img/pfp.jpg">
+
+		</div>
 		<div class="profile-name">
-			<h1>Nicolás Chujbeb</h1>
+			<h1 class="editable-text">Nicolás Chujbeb</h1>
 		</div>
 
 		<div class="profile-info-container">
-			<p class="profile-info-item"><i class="fas fa-map-marker-alt"></i> Buenos Aires, Argentina.</p>
-			<p class="profile-info-item"><i class="fas fa-birthday-cake"></i> 19 años</p>
-			<p class="profile-info-item"><i class="fas fa-calendar-alt"></i> 21/06/2003</p>
-			<p class="profile-info-item"><i class="fas fa-school"></i> Escuela técnica N°1</p>
+			<p class="profile-info-item editable-text"><i class="fas fa-map-marker-alt"></i> Buenos Aires, Argentina.</p>
+			<p class="profile-info-item editable-text"><i class="fas fa-birthday-cake"></i> 19 años</p>
+			<p class="profile-info-item editable-text"><i class="fas fa-calendar-alt"></i> 21/06/2003</p>
+			<p class="profile-info-item editable-text"><i class="fas fa-school"></i> Escuela técnica N°1</p>
 		</div>
 
-		<p class="profile-bio">
+		<p class="profile-bio editable-text">
 			Estudiante de Argentina Programa. Aspirante a informático, diseñador y desarrollador web. Este es el proyecto para el módulo II.
 		</p>
 
@@ -88,5 +97,7 @@
 
 	</div>
 
+
+	<script type="text/javascript" src="script.js"></script>
 </body>
 </html>
